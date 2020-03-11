@@ -1,0 +1,20 @@
+body {
+  background: pink;
+  color: maroon;
+}
+
+strong {
+  color: darkblue;
+}
+
+#citation {
+  color: paleturquoise;
+}
+
+.this_is_class {
+  color: purple;
+}
+
+h1 {
+  color: red;
+}
