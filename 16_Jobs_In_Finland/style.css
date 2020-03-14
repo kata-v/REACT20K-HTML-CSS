@@ -24,6 +24,8 @@ header {
 
 .logoContainer {
   background-color: rgb(240,240,240);
+  padding: 20px 50px;
+ 
  
 }
 
@@ -32,12 +34,15 @@ header {
   font-size: 34px;
   color: #002EA1;
  
-}
+ 
+  }
 
 .sideLink {
   font-size: 14px;
   color: #002EA1;
   float: right;
+  /* margin-bottom: 100px; */
+  /* vertical-align: text-top; */
   
   
 }
@@ -64,6 +69,16 @@ header li {
 
 }
 
+.menuContainer a {
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+header a:hover{
+  border-bottom: white solid 2px;
+  
+  
+}
 .searchBtn {  
    float: right;
    padding: 10px;
@@ -139,6 +154,8 @@ h1 {
 
 footer {
   background-color: navy;
+  height: 554px;
+  padding: 50px;
 }
 
 .footerGrid {
