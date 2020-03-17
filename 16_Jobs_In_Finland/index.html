@@ -6,6 +6,10 @@
     
     <title>Copy attempt of Jobs in Finland</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/ddd0e62760.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -18,8 +22,21 @@
       <div class="menuContainer">
       <nav >
         <ul>
-          <li><a href="#">Jobs home</a></li>
-      <li><a href="#">Regions</a></li>
+          <li><a class="homeLink" href="#">Jobs home</a></li>
+      <li>
+        <div class="regContainer">
+          <a href="#">Regions</a>
+          <div class="dropContent">
+            <a href="https://jobs.workinfinland.fi/job-region/turku-southwest-finland/">Turku & Southwest <br>Finland</a>
+            <a href="https://jobs.workinfinland.fi/job-region/lapland/">Lapland</a>
+            <a href="https://jobs.workinfinland.fi/job-region/lakeland/">Lakeland</a>
+            <a href="https://jobs.workinfinland.fi/job-region/helsinki-region/">Helsinki Region</a>
+            <a href="https://jobs.workinfinland.fi/job-region/espoo/">Espoo</a>
+            <a href="https://jobs.workinfinland.fi/job-region/tampere/">Tampere</a>
+            <a href="https://jobs.workinfinland.fi/job-region/oulu/">Oulu</a>
+            <a href="https://jobs.workinfinland.fi/job-region/kuopio/">Kuopio</a>
+          </div>
+      </div></li>
       <li><a href="#">Open Positions</a></li>
       <li><a href="#">About</a></li>
       <li><a href="#">For Employers</a></li>
@@ -27,7 +44,11 @@
         
       
     </ul>
-   <button class="searchBtn "><input type="search" name="searchField" class="searchField" placeholder="Search"></button> 
+   <button class="searchBtn "><i class="fas fa-search"></i>
+    <div class="searchContainer">
+    <input type="search" name="searchField" class="searchField" placeholder="Search">
+  </div>
+  </button> 
     </nav>
   </div>
   
@@ -47,7 +68,7 @@ YOU CAN SEARCH BY REGION, JOB CATEGORY OR USE THE KEYWORD SEARCH.
         <h2>EXPLORE BY CATEGORY</h2>
         <p>Browse open positions in your field of expertise. If you don’t find a suitable category, you can try a category close to your expertise or use the keyword search.</p>
       </div>
-      <div class="gridPart">Academic</div>
+      <div class="gridPart"><a>Academic </a></div>
       <div class="gridPart">Engineering</div>
       <div class="gridPart">Finance</div>
       <div class="gridPart">Health</div>
