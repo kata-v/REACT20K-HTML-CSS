@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kata's Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/ddd0e62760.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container" id="mainMenu">
+        <div class="logo">My Portfolio</div>
+        
+        <div class="dropMenu">
+          <button class="btn" id="dropBtn">Menu<i class="fas fa-angle-down"></i></button>
+          <div id="dropContent">
+            <a href="#mainMenu">Home</a>
+            <a href="#heroBanner">About</a>
+            <a href="#fillerSection">Things</a>
+            <a href="#mySkills">Skills</a>
+          </div>
+       
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="parts" id="heroBanner">
+        <div class="heroDiv">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi velit
+          inventore a est, deleniti, expedita consectetur dolore sapiente earum
+          accusantium numquam? Aut aspernatur illo nisi.
+        </p>
+        <button class="readMore">Read More</button>
+      </div>
+      </section>
+
+      <section class="parts" id="fillerSection">
+        <div class="fillerContainer">
+          <div>
+          <img src="https://source.unsplash.com/jFCViYFYcus" alt="Picture of a tree" class="fillerPic">
+        </div>
+          <div class="fillerTextBox">
+        <h2>Lorem, ipsum dolor.</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+          consequatur quasi sapiente eveniet quisquam aperiam!
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint
+          quibusdam molestias totam exercitationem dolorum nihil?
+        </p>
+        <ul>
+          <li>List item 1</li>
+          <li>List item 2</li>
+          <li>List item 3</li>
+        </ul>
+      </div>
+      </div>
+      <button onclick="topFunction()" id="topBtn" title="Go to top">
+        <i class="fas fa-angle-up"></i>
+      </button>
+      </section>
+
+      <section class="parts" id="mySkills">
+        <div class="skillContainer">
+
+        <h2>My Skills</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
+          fugit. Provident sed magni minus enim, laboriosam culpa odio beatae
+          mollitia saepe omnis itaque aliquid architecto maiores magnam commodi
+          ab quos?
+        </p>
+        <div class="boxContainer">
+          <div class="skillBox skillHtml">
+            <i class="fab fa-html5 fa-3x"></i>
+            <label for="sHtml">HTML</label>
+            <progress id="sHtml" value="25" max="100"> 25% </progress>
+          </div>
+          <div class="skillBox skillCss">
+            <i class="fab fa-css3 fa-3x"></i>
+            <label for="sCss">CSS</label>
+            <progress id="sCss" value="15" max="100"> 15% </progress>
+          </div>
+          <div class="skillBox skillJs">
+            <i class="fab fa-js fa-3x"></i>
+            <label for="sJs">JavaScript</label>
+            <progress id="sJs" value="10" max="100"> 10% </progress>
+          </div>
+          <div class="skillBox skillUiD">
+            <i class="fab fa-figma fa-3x"></i>
+            <label for="sDesign">UI Design</label>
+            <progress id="sDesign" value="15" max="100"> 15% </progress>
+          </div>
+      </div>
+      </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footerContainer">
+        <div class="footerPart">
+          <h3>Lorem, ipsum dolor.</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt aut
+            distinctio illum optio sint repellendus! Iste, laboriosam quas?
+          </p>
+        </div>
+        <div class="footerPart">
+          <h3>Lorem, ipsum dolor.</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            ducimus cupiditate enim, assumenda accusantium error, excepturi
+            saepe autem dignissimos porro voluptates quasi? Reiciendis,
+            consequatur quos?
+          </p>
+        </div>
+        <form class="contactForm">
+          <label for="fullName">Name</label>
+          <input type="text" name="name" id="fullName" placeholder="Enter your name" />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+          <label for="phoneNumber">Phone number</label>
+          <input
+            type="tel"
+            name="phone"
+            id="phoneNumber"
+            placeholder="Enter your phone number"
+          /> 
+          <label for="message">Message</label>
+          <textarea name="message" id="message" cols="30" rows="2" placeholder="Enter your message"></textarea>
+          
+          <button  class="sendBtn">Send</button>
+        </form>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
