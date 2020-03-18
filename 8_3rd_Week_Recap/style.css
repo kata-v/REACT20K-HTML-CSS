@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-color: white;
+}
+
+.logoContainer {
+  width: 300px;
+  height: auto;
+  margin: auto;
+  
+}
+
+.logo {
+  height: 100%;
+  width: 100%;
+  display: block;
+  
+ }
+ 
+ .mainMenu {
+   width: 450px;
+   margin: auto;
+   padding: 20px;
+ }
+
+
+.mainMenu li {
+ display: inline-block;
+ }
+
+.mainMenu li a {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 20px;
+  text-transform: uppercase;
+  color: black;
+}
+/*---Main page styling---*/
+
+section {
+  height: 500px;
+  width: auto;
+  padding: 30px 150px;
+}
+
+.welcomeContainer {
+ background: url("https://source.unsplash.com/featured/?sunset");
+ background-repeat: none;
+ background-size: cover;
+background-position: center;
+}
+
+.welcomeBox {
+  background:rgba(252, 106, 2, 0.5);
+  border-radius: 5px;
+  width: 400px;
+  height: auto;
+  color: white;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 34px;
+}
+
+.welcomeBox p {
+  margin-bottom: 20px;
+}
+
+.readMoreBtn {
+  border-style: none;
+  border-radius: 2px;
+  background: #474747;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.aboutContainer{
+  display: flex;
+align-items: center;
+padding-top: 50px;
+}
+
+.aboutContent {
+  
+  width: 400px;
+  height: auto;
+  margin-right: 40px;
+}
+
+.aboutContent h2 {
+  margin-bottom: 20px;
+}
+
+.financePic {
+  width: 400px;
+  height: auto;
+  border-radius: 5px;
+}
+
+/*---Footer styling---*/
+footer {
+  background: #474747;
+  padding: 40px 150px;
+  color: white;
+  
+}
+
+.footerContainer{
+  
+  display: grid;
+  grid-template-columns: repeat(2/ 1fr);
+  grid-template-rows: auto;
+  grid-gap: 60px;
+  
+  
+  }
+ 
+ .formContainer {
+   grid-column: 1;
+   width: 400px;
+   height: auto;
+   line-height: 40px;;
+ } 
+
+ .formPart{
+   border-bottom: 1px solid #535252;
+
+ }
+
+ .formPart:last-of-type {
+   border-bottom: none;
+ }
+ .formPart input,
+ textarea {
+   margin-right: 20px;
+   margin-left: 20px;
+   border-radius: 2px;
+   border-style: none;
+ }
+
+ label {
+   font-size: 14px;
+ }
+ .part1 p{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+ }
+ .part1 input{
+    height: 25px;
+    
+ }
+ textarea {
+   padding: 5px;
+ }
+
+.submitBtn {
+  background: rgb(252, 106, 2);
+  border-style: none;
+  border-radius: 2px;
+  padding: 10px 15px;
+  color: white;
+}
+
+ .sideContent {
+   grid-column: 2;
+   width: 400px;
+   height: auto; 
+ }
+
+ .sideContent h3{
+   margin-bottom: 20px;
+ }

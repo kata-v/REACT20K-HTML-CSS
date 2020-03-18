@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Recap for Week Three
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <!--The header contains a logo and three navigation headings-->
+      <div class="logoContainer">
+        <img src="assets/logo.png" alt="Our company logo" class="logo" />
+      </div>
+      <nav class="mainMenu">
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#aboutUS">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--The main part of the page starts here-->
+    <main>
+      <!--This part contains a background image and a box with text and READ MORE button-->
+      <section id="home" class="welcomeContainer">
+        <div class="welcomeBox">
+          <h1>Welcome to Our Webpage!</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe est
+            eligendi autem deserunt tempora pariatur quisquam, ducimus itaque
+            voluptate inventore! Eum, eveniet!
+          </p>
+          <button class="readMoreBtn">Read More</button>
+        </div>
+      </section>
+      <!-- This part contains a paragraph and an image-->
+      <section id="aboutUS">
+        <div class="aboutContainer">
+          <div class="aboutContent">
+            <h2>About Us</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
+              quis expedita quos cumque ad officia repudiandae illum voluptates
+              cupiditate consequuntur, repellendus illo cum eveniet? Est
+              inventore et minima aut distinctio aspernatur non quod. Dolorum
+              dolore vel illum, voluptas natus aspernatur.
+            </p>
+          </div>
+          <img
+            src="https://source.unsplash.com/5gGcn2PRrtc"
+            alt="Picture of Dow Jones Index"
+            class="financePic"
+          />
+        </div>
+      </section>
+    </main>
+    <!-- This part contains the contact form and a paragraph-->
+    <footer id="contact">
+      <div class="footerContainer">
+        <div class="formContainer">
+          <form>
+            <div class="formPart part1">
+              <h2>Contact Us</h2>
+              <p>
+                <label for="firstName">First Name </label>
+                <input type="text" name="firstName" id="firstName" />
+              </p>
+              <p>
+                <label for="lastName">Last Name </label>
+                <input type="text" name="lastName" id="lastName" />
+              </p>
+              <p>
+                <label for="email">Email</label>
+                 <input type="email" name="email" id="email" />
+              </p>
+            </div>
+            <div class="formPart">
+              <p>Do you want to join our newsletter?</p>              
+              <input type="radio" name="option" id="yes"/><label for="yes">Yes</label> <br>              
+              <input type="radio" name="option" id="no"/><label for="no">No</label>
+            </div>
+            <div class="formPart">
+              <p>How did you find us?</p>
+              <input type="checkbox" name="heardFrom" id="friend" /> <label for="friend">Friend told me</label>
+               <br />
+              <input type="checkbox" name="heardFrom" id="internet"/> <label for="internet"> Found in the internet</label>
+             <br />
+              <input type="checkbox" name="heardFrom" id="socialM"/> <label for="socialM">Saw in Social Media</label>
+              <br />
+              <input type="checkbox" name="heardFrom" id="other"/> <label for="other">Other</label>
+              <br />
+              <textarea
+              name="textArea"
+              id="textarea"
+              cols="50"
+              rows="3"
+              placeholder="How?"
+            ></textarea>
+              <br />
+              <button type="submit" class="submitBtn">SEND</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="sideContent">
+          <h3>Lorem, ipsum.</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quia
+            eveniet error voluptas. Quos, quod! Accusamus reiciendis aspernatur
+            ea facilis.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
